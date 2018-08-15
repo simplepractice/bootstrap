@@ -20,6 +20,8 @@
 
 +function ($) { "use strict";
 
+  if ($.fn.dropdown) { return; }
+
   // DROPDOWN CLASS DEFINITION
   // =========================
 

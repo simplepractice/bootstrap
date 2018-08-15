@@ -20,6 +20,8 @@
 
 +function ($) { "use strict";
 
+  if ($.fn.popover) { return; }
+
   // POPOVER PUBLIC CLASS DEFINITION
   // ===============================
 

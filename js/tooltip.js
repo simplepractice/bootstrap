@@ -21,6 +21,8 @@
 
 +function ($) { "use strict";
 
+  if ($.fn.tooltip) { return; }
+
   // TOOLTIP PUBLIC CLASS DEFINITION
   // ===============================
 
